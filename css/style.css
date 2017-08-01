@@ -176,13 +176,17 @@ clear {
 #contact h3{
     font-size: 32px;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
 }
 #contact h3 span{    
     color: #1ac056;
 }
-
+#contact .contact-data{
+    padding-left: 0;
+}
 #contact .contact-data address{ 
     font-family: 'Lato', sans-serif;
+    line-height: 30px;
 }
 #contact .contact-data address a {
     color: #1ac056;
