@@ -1,4 +1,4 @@
-<h1> Example project with few sections </h1>
+<h1> Example portfolio </h1>
 Used technologies:<br>
   *HTML5<br>
   *CSS3<br>
