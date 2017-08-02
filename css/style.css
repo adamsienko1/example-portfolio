@@ -8,23 +8,27 @@ body{
     margin-right: 50px;
 }
 #navbar-main a{
-    color: white;
-    padding-right: 30px;
+    color: #1AC056;
+    padding-right: 20px;
     font-family: 'Roboto', sans-serif;
 }
+#navbar-main li a:hover {
+    background-color: rgba(42, 61, 79, 0.8);
+    border-radius: 5px;  
+}
 .navbar-toggle{
-    background-color: #f9fcfe; 
+    background-color: rgba(129, 129, 129, 0.56); 
     border: #291f1a solid 1px;
 }
 .navbar-toggle .icon-bar{
     background-color: #291f1a
 }
 #header {
-    background-image: url('../img/header-background.jpg');
+    background-image: url('../img/technology-785742_1920.jpg');
     text-align: center;
     position: relative;
     height: 100vh;
-    background-position: center;    
+    background-size: cover;    
 }
 #header div {
     position: absolute;
@@ -131,7 +135,7 @@ background: url('../img/portfolio2.jpg') no-repeat;
 background-size: cover;
 }
 #portfolio-item-3{
-background: url('../img/portfolio2.jpg') no-repeat;
+background: url('../img/portfolio3.jpg') no-repeat;
 background-size: cover;
 }
 
@@ -210,7 +214,7 @@ clear {
 }
 #contact .contact-data .social-media a:hover {
     color: #2b4A64;
-    border: 1px solid 213B50;
+    border: 1px solid #213B50;
     background-color: #FFF
 }
 #contact .contact-form{
