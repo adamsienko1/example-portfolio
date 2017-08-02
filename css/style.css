@@ -12,6 +12,13 @@ body{
     padding-right: 30px;
     font-family: 'Roboto', sans-serif;
 }
+.navbar-toggle{
+    background-color: #f9fcfe; 
+    border: #291f1a solid 1px;
+}
+.navbar-toggle .icon-bar{
+    background-color: #291f1a
+}
 #header {
     background-image: url('../img/header-background.jpg');
     text-align: center;
@@ -183,6 +190,7 @@ clear {
 }
 #contact .contact-data{
     padding-left: 0;
+    padding-top: 30px;
 }
 #contact .contact-data address{ 
     font-family: 'Lato', sans-serif;
@@ -204,6 +212,10 @@ clear {
     color: #2b4A64;
     border: 1px solid 213B50;
     background-color: #FFF
+}
+#contact .contact-form{
+    padding-top: 30px;
+    padding-left: 0;
 }
 #contact .contact-form form input,
 #contact .contact-form form textarea {
